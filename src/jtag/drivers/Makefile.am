@@ -73,6 +73,9 @@ endif
 if FTDI
 DRIVERFILES += %D%/ftdi.c %D%/mpsse.c
 endif
+if COLOBUS
+DRIVERFILES += %D%/colobus.c
+endif
 if LINUXGPIOD
 DRIVERFILES += %D%/linuxgpiod.c
 endif
